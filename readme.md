@@ -11,19 +11,19 @@ $ npm install imagemin
 ## Usage
 
 ```js
-const imagemin = require('imagemin');
-const imageminJpegtran = require('imagemin-jpegtran');
-const imageminPngquant = require('imagemin-pngquant');
+const imagemin = require("imagemin");
+const imageminJpegtran = require("imagemin-jpegtran");
+const imageminPngquant = require("imagemin-pngquant");
 
 (async () => {
-	const files = await imagemin(['images/*.{jpg,png}'], {
-		destination: 'build/images',
+	const files = await imagemin(["images/*.{jpg,png}"], {
+		destination: "build/images",
 		plugins: [
 			imageminJpegtran(),
 			imageminPngquant({
-				quality: [0.6, 0.8]
-			})
-		]
+				quality: [0.6, 0.8],
+			}),
+		],
 	});
 
 	console.log(files);
@@ -46,6 +46,13 @@ File paths or [glob patterns](https://github.com/sindresorhus/globby#globbing-pa
 #### options
 
 Type: `object`
+
+##### overwrite
+
+Type: `boolean`\
+Default: `false`
+
+Overwrite original files.
 
 ##### destination
 
