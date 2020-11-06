@@ -3,12 +3,16 @@
 	"version": "1.0.0",
 	"description": "Minify images seamlessly",
 	"license": "MIT",
-	"repository": "imagemin/imagemin",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ivbrajkovic/utils.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ivbrajkovic/utils/issues"
+	},
+	"homepage": "https://github.com/ivbrajkovic/utils#readme",
 	"engines": {
 		"node": ">=10"
-	},
-	"scripts": {
-		"test": "xo && ava"
 	},
 	"files": [
 		"index.js"
