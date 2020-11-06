@@ -1,16 +1,16 @@
 {
-	"name": "imagemin",
+	"name": "@ivbrajkovic/imagemin",
 	"version": "1.0.0",
 	"description": "Minify images seamlessly",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/ivbrajkovic/utils.git"
+		"url": "git+https://github.com/ivbrajkovic/imagemin.git"
 	},
 	"bugs": {
-		"url": "https://github.com/ivbrajkovic/utils/issues"
+		"url": "https://github.com/ivbrajkovic/imagemin/issues"
 	},
-	"homepage": "https://github.com/ivbrajkovic/utils#readme",
+	"homepage": "https://github.com/ivbrajkovic/imagemin#readme",
 	"engines": {
 		"node": ">=10"
 	},
